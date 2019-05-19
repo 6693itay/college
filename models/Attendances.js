@@ -1,8 +1,8 @@
 /* jshint indent: 2 */
 const sequelize = require('../db');
 
-const Courses = sequelize.import("courses.js");
-const Students = sequelize.import("students.js");
+const Courses = sequelize.import("Courses.js");
+const Students = sequelize.import("Students.js");
 
 module.exports = function (sequelize, DataTypes) {
   let attendances = sequelize.define('attendances', {
