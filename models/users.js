@@ -70,7 +70,7 @@ module.exports = function (sequelize, DataTypes) {
       }
       
     }
-    catch  {
+    catch (e) {
       throw new Error("Invalid token");
     }
   }
